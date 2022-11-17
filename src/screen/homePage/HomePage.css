@@ -1,0 +1,129 @@
+.main-box{
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-box{
+    /* align-content: center; */
+    padding: 30px 20px;
+    width: 300px;
+    background-color: var(--color-divbg);
+    height: 90vh;
+    border-radius: 15px;
+    /* position: fixed;
+    left: 10%; */
+    /* border: 0.01px solid var(--color-primary); */
+}
+.right-box{
+    border-radius: 15px;
+    /* padding: 20px; */
+    width: 800px;
+    background-color: var(--color-divbg);
+    height: 90vh;
+}
+.menu-box{
+    position: relative;
+    width: fit-content;
+    display: flex;
+    padding: 10px;
+    background-color: var(--color-div);
+    border-radius: 10px 10px 10px 0px;
+}
+
+a{
+    color: var(--color-white);
+    text-transform: none;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 0px 20px;
+}
+a:hover{
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+.pic-box{
+    align-items: center;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: var(--color-div);
+    justify-content: center;
+    display: grid;
+}
+
+.pic{
+    width: 150px;
+}
+
+.main-dic{
+    justify-content: center;
+    display: grid;
+   
+}
+
+.about-title{
+    
+    justify-content: center;
+    display: grid;
+    margin-top: 10px;
+}
+.position{
+    background-color: var(--color-div);
+    width: fit-content;
+    border-radius: 30px;
+    padding: 0px 10px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.position-main{
+    margin-top: 5px;
+    justify-content: center;
+    display: grid;
+}
+.icon-box{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-div);
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    color: var(--color-primary);
+}
+.icon-title{
+    color: grey;
+    font-size: 10px;
+}
+.icons-box{
+    padding: 10px 0px;
+}
+.social{
+    margin-top: 010px;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.icon-boxs{
+    background-color: var(--color-div);
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.right-main{
+    padding: 10px;
+}

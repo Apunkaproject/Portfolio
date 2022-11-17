@@ -1,0 +1,10 @@
+.music-button{
+    background-color: transparent;
+    border: none;
+}
+
+.music-button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
